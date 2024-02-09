@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: #e6e0e0;
+    margin: 20px 18rem;
+    padding: 8rem 4rem;
+    border-radius: 10px;
+    
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    width: 5px;
+   
+}
+.operation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.disply{
+    text-align: center;
+}
+h1{
+    position: absolute;
+    top: 3.5rem;
+    left: 23.5rem;
+}
+input{
+    outline: none;
+    border: none;
+}
+#Result{
+ margin-top: 30px;
+}
